@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POSITIONING</title>
+	<style>
+	.container{
+		background-color: #f2f2f2;
+		border: 1px solid grey;
+		width: 100%;
+		height: 850px;
+		position: relative;
+		margin: 0 auto;
+		background-image: url(img/slid1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		
+	}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+
+	}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.center {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+	</style>
+		
+</head>
+<body>
+	<div class="container">
+		<div class="topleft">
+		<h1>Top Left </h1>
+	    </div>
+	    <div class="topright">
+	     <h1>Top Right</h1>
+	    </div>
+	    <div class="bottomleft">
+	      <h1>Bottom Left</h1>	
+	    </div>
+	    <div class="bottomright">
+	    	<h1>Bottom Right</h1>
+	    </div>
+	    <div class="center">
+	       <h1>Centered</h1>	
+	    </div>
+	
+	
+	</div>
+</body>
+</html>
